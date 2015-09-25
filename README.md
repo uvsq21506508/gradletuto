@@ -54,3 +54,18 @@ gradletuto.jar
 $ java -cp $GROOVY_HOME/lib/groovy-2.4.5.jar:build/libs/gradletuto.jar fr.uvsq.doosa.gradletuto.Main
 Hello
 ```
+
+## Lancer l'application
+```
+$ gradle run
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+Hello
+
+BUILD SUCCESSFUL
+
+Total time: 1.663 secs
+```

@@ -1,5 +1,8 @@
 apply plugin: 'groovy'
 
+apply plugin: 'application'
+mainClassName = 'fr.uvsq.doosa.gradletuto.Main'
+
 repositories {
     mavenCentral()
 }
