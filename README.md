@@ -81,3 +81,31 @@ Total time: 1.663 secs
 
 ### Voir aussi
 * Plugin [application](https://docs.gradle.org/current/userguide/application_plugin.html)
+
+## Intégrer les tests unitaires
+```
+$ gradle build
+:compileJava UP-TO-DATE
+:compileGroovy
+:processResources UP-TO-DATE
+:classes
+:jar
+:startScripts
+:distTar
+:distZip
+:assemble
+:compileTestJava UP-TO-DATE
+:compileTestGroovy
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+:check
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.042 secs
+```
+
+### Voir aussi
+* [Groovy Testing Guide](http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html)
