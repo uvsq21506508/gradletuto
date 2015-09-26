@@ -143,6 +143,8 @@ Hello
 ## Références
 * [Gradle User Guide](https://docs.gradle.org/current/userguide/userguide.html)
 * [Gradle Build Language Reference](https://docs.gradle.org/current/dsl/)
+* [Building and Testing With Gradle!](http://www2.gradleware.com/l/68052/2015-01-13/6dm)
+* [Gradle Beyond the Basics!](http://www2.gradle.com/l/68052/2015-01-26/23s5)
 * [The Gradle build system- Tutorial ](http://www.vogella.com/tutorials/Gradle/article.html)
 * [Gradle Tutorial](http://rominirani.com/2014/07/28/gradle-tutorial-part-1-installation-setup/)
 * [Gradle Goodness](http://mrhaki.blogspot.fr/search/label/Gradle)
