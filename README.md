@@ -139,3 +139,11 @@ Hello
 * Plugin [Shadow](https://github.com/johnrengelman/shadow)
 * [Writing Custom Plugins](https://docs.gradle.org/current/userguide/custom_plugins.html)
 * [Gradle plugin portal](https://plugins.gradle.org/)
+
+## Références
+* [Gradle User Guide](https://docs.gradle.org/current/userguide/userguide.html)
+* [Gradle Build Language Reference](https://docs.gradle.org/current/dsl/)
+* [The Gradle build system- Tutorial ](http://www.vogella.com/tutorials/Gradle/article.html)
+* [Gradle Tutorial](http://rominirani.com/2014/07/28/gradle-tutorial-part-1-installation-setup/)
+* [Gradle Goodness](http://mrhaki.blogspot.fr/search/label/Gradle)
+* [Getting Started With Gradle](http://www.petrikainulainen.net/getting-started-with-gradle/)
