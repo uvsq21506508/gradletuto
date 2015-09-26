@@ -109,3 +109,33 @@ Total time: 4.042 secs
 
 ### Voir aussi
 * [Groovy Testing Guide](http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html)
+
+## Créer un uberjar (jar avec les dépendances)
+```
+$ gradle tasks
+...
+Shadow tasks
+------------
+knows - Do you know who knows?
+shadowJar - Create a combined JAR of project and runtime dependencies
+...
+$ gradle shadowJar
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:shadowJar
+
+BUILD SUCCESSFUL
+
+Total time: 3.441 secs
+$ ls build/libs
+gradletuto-all.jar  gradletuto.jar
+$ java -jar build/libs/gradletuto-all.jar
+Hello
+```
+
+### Voir aussi
+* Plugin [Shadow](https://github.com/johnrengelman/shadow)
+* [Writing Custom Plugins](https://docs.gradle.org/current/userguide/custom_plugins.html)
+* [Gradle plugin portal](https://plugins.gradle.org/)
